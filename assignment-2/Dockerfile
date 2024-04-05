@@ -13,6 +13,8 @@ USER assignment
 
 WORKDIR /home/assignment
 
+COPY a2_final.ipynb
+
 EXPOSE 8888
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0"]
