@@ -14,5 +14,7 @@ z = np.sin(x)
 plt.plot(x, y)
 plt.plot(x, z)
 # Add a legend to the plot to name z and y
-plt.legend(labels=("Y", "Z"))
+plt.legend(labels=("Y [cos(x)]", "Z [sin(x)]"))
 # Add appropriate x- and y-axis labels
+plt.xlabel("x values")
+plt.ylabel("y and z values")
